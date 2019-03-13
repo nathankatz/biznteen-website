@@ -1,0 +1,115 @@
+
+<div class="home-page">
+
+  <div class="banner" *showAuthed="false">
+    <div class="container">
+      <h1 class="logo-font">Biz 'n Teen</h1>
+      <p>Save money, hire young, inspire lives.</p>
+    </div>
+  </div>
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <a class="nav-link"
+          routerLink="/services"
+          routerLinkActive="active">
+        <i class="fas fa-baby"></i>
+        <br>
+          Babysitting
+        </a>
+      </div>
+      <div class="col-sm">
+        <a class="nav-link"
+          routerLink="/login"
+          routerLinkActive="active">
+          <i class="fas fa-tractor"></i>
+        <br>
+          Landscaping
+        </a>
+      </div>
+      <div class="col-sm">
+        <a class="nav-link"
+          routerLink="/login"
+          routerLinkActive="active">
+        <i class="fas fa-apple-alt" ></i>
+        <br>
+          Tutoring
+        </a>
+      </div>
+      <div class="col-sm">
+        <a class="nav-link"
+          routerLink="/login"
+          routerLinkActive="active">
+        <i class="fas fa-paw"></i>
+        <br>
+          Animal Sitting
+        </a>
+      </div>
+      <div class="col-sm">
+        <a class="nav-link"
+          routerLink="/login"
+          routerLinkActive="active">
+        <i class="fas fa-car"></i>
+        <br>
+          Driving
+        </a>
+      </div>
+      <div class="col-sm">
+        <a class="nav-link"
+          routerLink="/login"
+          routerLinkActive="active">
+        <i class="fas fa-desktop"></i>
+        <br>
+          Computer
+        </a>
+      </div>
+      <div class="col-sm">
+        <a class="nav-link"
+          routerLink="/login"
+          routerLinkActive="active">
+        <i class="fas fa-broom"></i>
+        <br>
+          Cleaning
+        </a>
+      </div>
+    </div>
+  </div>
+
+<!--
+  <div class="container page">
+    <div class="row">
+
+      <div class="col-md-9">
+        <div class="feed-toggle">
+          <ul class="nav nav-pills outline-active">
+            <li class="nav-item">
+              <a class="nav-link"
+                 [ngClass]="{'active': listConfig.type === 'feed'}"
+                 (click)="setListTo('feed')">
+                 Your Feed
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"
+                 [ngClass]="{'active': listConfig.type === 'all' && !listConfig.filters.tag}"
+                 (click)="setListTo('all')">
+                 Global Feed
+              </a>
+            </li>
+            <li class="nav-item" [hidden]="!listConfig.filters.tag">
+              <a class="nav-link active">
+                <i class="ion-pound"></i> {{ listConfig.filters.tag }}
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <article-list [limit]="10" [config]="listConfig"></article-list>
+      </div>
+
+    </div>**/
+    -->
+</div>

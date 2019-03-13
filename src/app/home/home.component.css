@@ -1,0 +1,30 @@
+.nav-link {
+  cursor:pointer;
+}
+.tag-pill{
+  cursor:pointer;
+}
+a i{
+  display: inline-block;
+  text-align: center;
+}
+.col-sm{
+  text-align: center;
+  font-size: 12px;
+  color: black;
+  border-color: black;
+  border-top: 0;
+  border-bottom: 0;
+  border-left: .5px;
+  border-right: .5px;
+  border-style: solid;
+  padding: 0px;
+}
+i{
+  font-size: 40px !important;
+  color: #3d8b3d !important;
+}
+.nav-link{
+  line-height: 25px;
+  color: black;
+}
