@@ -18,7 +18,8 @@ a i{
   border-left: .5px;
   border-right: .5px;
   border-style: solid;
-  padding: 20px;
+  padding: 10px;
+    width:25%;
 }
 i{
   font-size: 40px !important;
