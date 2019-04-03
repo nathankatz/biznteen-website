@@ -25,7 +25,6 @@ import {
 } from './shared';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-import { ServicesComponent } from './services/services.component';
 
 
 
@@ -36,7 +35,6 @@ const rootRouting: ModuleWithProviders = RouterModule.forRoot([], { useHash: tru
     AppComponent,
     FooterComponent,
     HeaderComponent,
-    ServicesComponent
   ],
   imports: [
     BrowserModule,
